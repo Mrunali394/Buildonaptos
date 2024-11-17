@@ -1,0 +1,15 @@
+[package]
+name = "FreelancingPlatform"
+version = "1.0.0"
+authors = []
+
+[addresses]
+FreelancePlatform = '0xb3c176c015606831d7fd3e7348a1fac8bc7bbf531da5638f12a348a53da3ca7c'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
